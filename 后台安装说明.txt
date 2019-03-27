@@ -1,0 +1,9 @@
+素材火测试环境 phpstudy php5.5 apache 开启伪静态 顶级域名
+1.用phpmyadmin 导入demo_1201.sql
+2.修改 application\database.php
+
+管理员后台：域名+/index.php/login/login/index.html
+
+账号 admin  密码 admin
+
+后台登录代码修改地址：application\login\controller\Login.php
